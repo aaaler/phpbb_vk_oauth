@@ -1,0 +1,27 @@
+{
+    "name": "aler/vk_oauth",
+    "type": "phpbb-extension",
+    "description": "VK OAuth integration",
+    "homepage": "https://github.com/aaaler",
+    "version": "1.0.0",
+    "keywords": [
+        "phpbb",
+        "extension"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Alex Griazin",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "VK oAuth integaration",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.0"
+        }
+    }
+}
