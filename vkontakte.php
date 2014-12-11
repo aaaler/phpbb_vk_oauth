@@ -78,12 +78,8 @@ class vkontakte extends \phpbb\auth\provider\oauth\service\base
         $token = $this->service_provider->requestAccessToken($this->request->variable('code', ''));
 	$vk_extraparam = $token->getExtraParams();
 
-        // Send a request with it
-        $result = json_decode($this->service_provider->request('users.get?user_ids='.$vk_extraparam['user_id'].'&fields=domain,timezone,connections,bdate'), true);
-
         // Return the unique identifier returned from vkontakte
-
-        return $result['response'][0]['uid'];
+        return $vk_extraparam['user_id'];
     }
 
     /**
@@ -97,7 +93,6 @@ class vkontakte extends \phpbb\auth\provider\oauth\service\base
         }
 	$storage = $this->service_provider->getStorage();
 	$token =  $storage->retrieveAccessToken($this->service_provider->service());
-
 	$vk_extraparam = $token->getExtraParams();
 
         // Send a request with it
