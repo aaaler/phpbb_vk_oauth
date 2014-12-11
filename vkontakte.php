@@ -48,6 +48,8 @@ class vkontakte extends \phpbb\auth\provider\oauth\service\base
     {
         $this->config = $config;
         $this->request = $request;
+	global $user;
+	$user->add_lang_ext('aler/vk_oauth', 'common');
 
     }
 
