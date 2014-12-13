@@ -1,0 +1,58 @@
+.oauthicons ul {
+  list-style-type: none; }
+
+.oauthicons li {
+  list-style-type: none;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  margin-top: 4px;
+  background: url(./images/social-login-spr.png) no-repeat;
+  cursor: pointer; }
+
+.oauthicons a {
+  float: left;
+  width: 16px;
+  height: 16px; }
+
+.oauthicons .gpplus {
+    background-position: -132px -44px; }
+
+.oauthicons .facebook {
+    background-position: left -44px; }
+
+.oauthicons .twitter {
+    background-position: -44px -44px; }
+
+.oauthicons .vkontakte {
+    background-position: -88px -44px; }
+
+
+.oauthiconsbig li {
+  float: left;
+  width: 44px;
+  height: 44px;
+  margin-left: 0;
+  margin-right: 12px;
+  background: url(./images/social-login-spr.png) no-repeat;
+  cursor: pointer;
+  list-style-type: none; }
+
+.oauthiconsbig .twitter {
+    background-position: -44px top; }
+
+.oauthiconsbig .vkontakte {
+    background-position: -88px top; }
+
+.oauthiconsbig .facebook {
+    background-position: -0px top; }
+
+.oauthiconsbig .gpplus {
+    background-position: -132px top; }
+
+.oauthiconsbig li a {
+  display: block;
+  width: 32px;
+  height: 30px;
+  text-decoration: none; }
