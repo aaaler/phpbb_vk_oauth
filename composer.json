@@ -1,8 +1,8 @@
 {
-    "name": "aler/oauth_buttons",
+    "name": "aler/vk_oauth",
     "type": "phpbb-extension",
-    "description": "oAuth provider's login buttons in header",
-    "homepage": "https://github.com/aaaler/phpbb_oauth_buttons",
+    "description": "VK OAuth integration",
+    "homepage": "https://github.com/aaaler/phpbb_vk_oauth",
     "version": "1.0.0",
     "keywords": [
         "phpbb",
@@ -19,7 +19,7 @@
         "php": ">=5.3.3"
     },
     "extra": {
-        "display-name": "oAuth login buttons",
+        "display-name": "VK oAuth integaration",
         "soft-require": {
             "phpbb/phpbb": ">=3.1.0"
         }

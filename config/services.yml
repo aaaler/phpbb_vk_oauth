@@ -1,0 +1,8 @@
+services:
+    auth.provider.oauth.service.vkontakte:
+        class: aler\vk_oauth\vkontakte
+        arguments:
+            - @config
+            - @request
+        tags:
+            - { name: auth.provider.oauth.service }
